@@ -1,0 +1,39 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+}
+
+.navbar {
+background-color: rgb(200, 162, 251);
+}
+.navbar a {
+    font-size: 1.25rem;
+}
+
+h1 {
+    background-color: rgb(249, 238, 247);
+    text-align: center;
+    padding: 10px;
+}
+
+span {
+    color:black;
+}
+
+
+
+.form-container {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5%;
+    border: 1px solid gainsboro;
+    background-color:rgb(249, 238, 247);
+}
+
+@media only screen and (max-width: 479px) {
+    .form-container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
